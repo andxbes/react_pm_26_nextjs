@@ -1,6 +1,6 @@
 'use client'
 import { usePathname } from 'next/navigation';
-import classes from './main-header.module.css';
+import classes from './nav-link.module.css';
 import Link from 'next/link';
 
 export default function NavLink({ href, children }) {
