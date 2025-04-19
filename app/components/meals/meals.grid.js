@@ -8,5 +8,5 @@ export default function MealsGrid({ meals }) {
                 <MealItem {...meal} />
             </li>)
         }
-    </ul >
+    </ul>
 };
