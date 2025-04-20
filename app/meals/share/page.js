@@ -1,3 +1,4 @@
+'use client'
 import ImagePicker from '@/app/components/meals/image-picker';
 import classes from './page.module.css';
 
