@@ -19,15 +19,17 @@ export default function CommunityPage() {
 
         <ul className={classes.perks}>
           <li>
-            <Image src={mealIcon} alt="A delicious meal" />
+            <Image src={mealIcon} loading='eager' alt="A delicious meal" />
             <p>Share & discover recipes</p>
           </li>
           <li>
-            <Image src={communityIcon} alt="A crowd of people, cooking" />
+            <Image src={communityIcon} loading='lazy' alt="A crowd of people, cooking" />
             <p>Find new friends & like-minded people</p>
           </li>
           <li>
             <Image
+
+              loading='lazy'
               src={eventsIcon}
               alt="A crowd of people at a cooking event"
             />
